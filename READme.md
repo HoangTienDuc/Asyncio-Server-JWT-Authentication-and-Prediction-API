@@ -13,7 +13,7 @@ This asyncio server application provides JWT-based authentication, data predicti
 ## Requirements
 
 - Python 3.6+
-- Flask
+- Asyncio
 - PyJWT
 - cryptography
 
@@ -21,8 +21,8 @@ This asyncio server application provides JWT-based authentication, data predicti
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-repo/flask-jwt-auth-prediction.git
-    cd flask-jwt-auth-prediction
+    git clone https://github.com/HoangTienDuc/Asyncio-Server-JWT-Authentication-and-Prediction-API
+    cd Asyncio-Server-JWT-Authentication-and-Prediction-API
     ```
 
 2. **Create and activate a virtual environment:**
@@ -45,7 +45,7 @@ This asyncio server application provides JWT-based authentication, data predicti
 
 5. **Run the application:**
     ```bash
-    flask run
+    python3 server.py
     ```
 
 ## API Endpoints
